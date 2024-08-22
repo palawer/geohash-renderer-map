@@ -1,0 +1,102 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  box-sizing: border-box;
+  outline: none;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+}
+
+a {
+  color: #0071e3;
+}
+
+.link {
+  font-size: 12px;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 230px;
+}
+
+#sidebar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 230px;
+  padding: 15px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border-left: 2px solid #ddd;
+}
+
+.sidebarBlock {
+  margin-bottom: 20px;
+}
+
+#geohashesBox {
+  width: 100%;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  height: 300px;
+  outline: none;
+  margin: 0 0 10px;
+  background-color: #fafafa;
+}
+#geohashesBox:focus {
+  border-color: #0071e3;
+}
+
+.btn {
+  background-color: #0071e3;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #0077EF;
+}
+.btn:active {
+  background: #006edb;
+}
+
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+
+h3 {
+  margin: 0 0 15px;
+  font-size: 16px;
+}
+
+.table {
+  width: 100%;
+}
